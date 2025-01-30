@@ -1,0 +1,1 @@
+Este projeto é uma interface simples para gestão de contratos de funcionários, desenvolvido utilizando apenas HTML5 e CSS. Ele foi criado para ajudar a visualizar informações importantes sobre contratos, como datas de início e término, e o status do contrato.
