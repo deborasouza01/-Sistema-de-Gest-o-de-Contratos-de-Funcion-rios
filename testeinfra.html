@@ -1,0 +1,102 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>testeInfra</title>
+    <link rel="stylesheet" href="testeinfra.css">
+    <link rel="stylesheet" href="testeinfra.js">
+</head>
+<body>                                                                                 
+    <div>
+    <table border="0.5px;">
+        <caption id="titulo">
+         <h2>INFORMAÇÕES DE CONTRATAÇÃO DE EMPRESAS DE INFRAESTRUTURA</h2>
+         <p><button type="button" class="botao" onclick="calcularTempoRestante()">ADCIONAR</button></p>
+        </caption>
+
+        <thead>
+            <tr id="cabeçalho">
+                <th scope="col" id="empresa">EMPRESA</th>
+                <th scope="col" id="duraçao">DURAÇÃO</th>
+                <th scope="col" id="inicio">INÍCIO</th>
+                <th scope="col" id="termino">TÉRMINO</th>
+                <th scope="col" id="temporest">TEMPO<br>RESTANTE</th>
+                <th scope="col" id="contrato">CONTRATO</th>
+                <th scope="col" id="renovacao">RENOVAÇÃO</th>
+                <th scope="col" id="rescisao">RESCISÃO</th>
+            </tr>
+        </thead>
+        
+        <tbody>
+            <tr id="empresaoam">
+                 <th scope="col" id="oam">OAM</th>
+                 <td><input type="number" name="duraoam" id="durac"  size ="6" width="6"class="for-control" required="required"/></td>
+                 <td><input type="date" name="inioam" id="inioam"  class="for-control" required="required"/></td>
+                 <td><input type="date" name="termoam" id="termoam" class="for-control"/></td>
+                 <td><input type="text" name="tempresoam" id="temporesoam"   size ="6" width="6" class="for-control"/></td>
+                 <td><input type="file" name="contrato" id="icontrato"></td>
+                 <form>
+                    <td>
+                    <INPUT TYPE="radio" NAME="oamopcao" VALUE="oamsim"> Sim
+                    <INPUT TYPE="radio" NAME="oamopcao" VALUE="oamnao"> Não
+                    </td>
+                 </form>
+            </tr>
+        </tbody>
+            
+            
+                <tbody>
+                 <tr id="empresaquimeclean">
+                 <th scope="col" id="quimiclean">QUIMICLEAN</th>
+                 <td><input type="number" name="duraclean" id="durac"  size ="6" width="6" class="for-control" required="required"/></td>
+                 <td><input type="date" name="iniclen" id="iniclen" class="for-control" required="required"/></td>
+                 <td><input type="date" name="termclen" id="termclen" class="for-control"/></td>
+                 <td><input type="text" name="tempresclen" id="temporesclean"  size ="6" width="6"class="for-control"/></td>
+                 <td><input type="file" name="contrato" id="icontrato"></td>
+                 <form>
+                    <td>
+                    <INPUT TYPE="radio" NAME="cleanopcao" VALUE="cleansim"> Sim
+                    <INPUT TYPE="radio" NAME="cleanopcao" VALUE="cleannao"> Não
+                    </td>
+                 </form>
+            </tr>
+            </tbody>
+        
+            <tbody>
+            <tr id="empresacmcomandos">
+                 <th scope="col" id="cmomandos">CM COMANDOS</th>
+                 <td><input type="number" name="duracmcomandos" id="durac"  size ="6" width="6" class="for-control" required="required"/></td>
+                 <td><input type="date" name="inicmcomandos" id="inicmcomandos" class="for-control" required="required"/></td>
+                 <td><input type="date" name="termcmcomandos" id="termcmcomandos" class="for-control"/></td>
+                 <td><input type="text" name="temprestcmcomandos" id="temporescmcomandos"  size ="6" width="6" class="for-control"/></td>
+                 <td><input type="file" name="contrato" id="icontrato"></td>
+                <form>
+                    <td>
+                    <INPUT TYPE="radio" NAME="cmcomanopcao" VALUE="cmcomandosim"> Sim
+                    <INPUT TYPE="radio" NAME="cmcomanopcao" VALUE="cmcomandosnao"> Não
+                    </td>
+                </form>
+            </tr>
+            </tbody>
+            <tbody>
+            <tr id="empresaupgeradores">
+                <th scope="col" id="upgeradores">UP GERADORES</th>
+                <td><input type="number" name="duraupgeradores" id="durac"size ="6" width="6px" class="for-control" required="required"/></td>
+                <td><input type="date" name="iniupgeradores" id="inicmcomandos" class="for-control" required="required"/></td>
+                <td><input type="date" name="termupgeradores" id="termupgeradores" class="for-control"/></td>
+                <td><input type="text" name="temprestupgeradores" id="temporesupgeradores"  size ="6" width="6"class="for-control"/></td>
+                <td><input type="file" name="contrato" id="icontrato"></td>
+               <form>
+                   <td>
+                   <INPUT TYPE="radio" NAME="upgeradoresopcao" VALUE="upgeradoressim"> Sim
+                   <INPUT TYPE="radio" NAME="upgeradoresopcao" VALUE="upgeradoresnao"> Não
+                   </td>
+               </form>
+           </tr>
+           </tbody>
+    </table>
+</div>
+              
+</body>
+</html>
